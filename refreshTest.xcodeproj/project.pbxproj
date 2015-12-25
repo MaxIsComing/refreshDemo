@@ -14,6 +14,10 @@
 		3BC3325B1B6B3DF6003F221E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BC3325A1B6B3DF6003F221E /* Images.xcassets */; };
 		3BC3325E1B6B3DF6003F221E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3BC3325C1B6B3DF6003F221E /* LaunchScreen.xib */; };
 		3BC3326A1B6B3DF6003F221E /* refreshTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BC332691B6B3DF6003F221E /* refreshTestTests.m */; };
+		3BC332781B6B3E7F003F221E /* UIScrollView+GResfresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BC332771B6B3E7F003F221E /* UIScrollView+GResfresh.m */; };
+		3BC3327B1B6B47F7003F221E /* GMyRefreshView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BC3327A1B6B47F7003F221E /* GMyRefreshView.m */; };
+		3BC3327E1B6B4A32003F221E /* arrow-white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BC3327C1B6B4A32003F221E /* arrow-white@2x.png */; };
+		3BC3327F1B6B4A32003F221E /* backgroud@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BC3327D1B6B4A32003F221E /* backgroud@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,12 @@
 		3BC332631B6B3DF6003F221E /* refreshTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = refreshTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BC332681B6B3DF6003F221E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3BC332691B6B3DF6003F221E /* refreshTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = refreshTestTests.m; sourceTree = "<group>"; };
+		3BC332761B6B3E7F003F221E /* UIScrollView+GResfresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+GResfresh.h"; sourceTree = "<group>"; };
+		3BC332771B6B3E7F003F221E /* UIScrollView+GResfresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+GResfresh.m"; sourceTree = "<group>"; };
+		3BC332791B6B47F7003F221E /* GMyRefreshView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMyRefreshView.h; sourceTree = "<group>"; };
+		3BC3327A1B6B47F7003F221E /* GMyRefreshView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMyRefreshView.m; sourceTree = "<group>"; };
+		3BC3327C1B6B4A32003F221E /* arrow-white@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow-white@2x.png"; sourceTree = "<group>"; };
+		3BC3327D1B6B4A32003F221E /* backgroud@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backgroud@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +73,12 @@
 		3BC332411B6B3DF6003F221E = {
 			isa = PBXGroup;
 			children = (
+				3BC3327C1B6B4A32003F221E /* arrow-white@2x.png */,
+				3BC3327D1B6B4A32003F221E /* backgroud@2x.png */,
+				3BC332791B6B47F7003F221E /* GMyRefreshView.h */,
+				3BC3327A1B6B47F7003F221E /* GMyRefreshView.m */,
+				3BC332761B6B3E7F003F221E /* UIScrollView+GResfresh.h */,
+				3BC332771B6B3E7F003F221E /* UIScrollView+GResfresh.m */,
 				3BC3324C1B6B3DF6003F221E /* refreshTest */,
 				3BC332661B6B3DF6003F221E /* refreshTestTests */,
 				3BC3324B1B6B3DF6003F221E /* Products */,
@@ -199,9 +215,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BC3327E1B6B4A32003F221E /* arrow-white@2x.png in Resources */,
 				3BC332591B6B3DF6003F221E /* Main.storyboard in Resources */,
 				3BC3325E1B6B3DF6003F221E /* LaunchScreen.xib in Resources */,
 				3BC3325B1B6B3DF6003F221E /* Images.xcassets in Resources */,
+				3BC3327F1B6B4A32003F221E /* backgroud@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,8 +238,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3BC332561B6B3DF6003F221E /* ViewController.m in Sources */,
+				3BC3327B1B6B47F7003F221E /* GMyRefreshView.m in Sources */,
 				3BC332531B6B3DF6003F221E /* AppDelegate.m in Sources */,
 				3BC332501B6B3DF6003F221E /* main.m in Sources */,
+				3BC332781B6B3E7F003F221E /* UIScrollView+GResfresh.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
